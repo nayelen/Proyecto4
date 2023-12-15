@@ -48,19 +48,19 @@ const data = {
   projetcs: [
     {
       title: "Landing page",
-      description: "Landing page personal para mostrar las fotografías y videos de boda que realizamos.",
+      description: "Landing page personal para mostrar las fotografías y videos de boda que realizamos. Utilizando HTML5 y CSS3",
       link: "https://github.com/nayelen/Proyecto1.git",
       image: "../public/Portadakadosh.png",
     },
     {
       title: "Landing page",
-      description: "Réplica de una landing page responsive con HTML y CSS",
-      link: "https://resplendent-snickerdoodle-8ce74b.netlify.app",
-      image: "../public/landing.png",
+      description: "Landing page de un negocio pequeño y familiar. Utilizando HTML5, CSS3 y JS",
+      link: "https://github.com/nayelen/Proyecto2.git",
+      image: "../public/landingnony.png",
     },
     {
       title: "Proyecto Async Web Design",
-      description: "Replica de la aplicación web Pinterest utilizando la API unsplash para la obtención de imágenes.",
+      description: "Replica de la aplicación web Pinterest utilizando la API unsplash para la obtención de imágenes. Utilizando HTML5, CSS3 y JS",
       link: "https://github.com/nayelen/Proyecto3.git",
       image: "../public/proyecto3.png",
     }

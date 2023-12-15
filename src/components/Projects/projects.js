@@ -11,6 +11,8 @@ export const printProjects = (main$$) => {
   for (const project of projects) {
     const itemProjects = document.createElement('li');
     const imgProject = document.createElement('img');
+    const divText = document.createElement('div');
+    divText.className = "divText";
     const h3Project = document.createElement('h3');
     const descriptionProject = document.createElement('p');
     const linkProject = document.createElement('a');
@@ -22,9 +24,10 @@ export const printProjects = (main$$) => {
 
     listProjects.appendChild(itemProjects);
     itemProjects.appendChild(imgProject);
-    itemProjects.appendChild(h3Project);
-    itemProjects.appendChild(descriptionProject);
-    itemProjects.appendChild(linkProject);
+    itemProjects.appendChild(divText);
+    divText.appendChild(h3Project)
+    divText.appendChild(descriptionProject);
+    divText.appendChild(linkProject);
   }
 
   main$$.appendChild(sectProjects);

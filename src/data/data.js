@@ -2,7 +2,7 @@ const data = {
   name: "Nadia Pérez",
   address: "Móstoles, Madrid",
   email: "ayelen.310@hotmail.com",
-  picture: "../public/meImage.png",
+  picture: "/assets/meImage.png",
   aboutMe: "Soy una persona sociable, que sabe trabajar en equipo, con experiencia en atención al cliente, gestión de grupos y habilidad de hablar en público. Fotógrafa de bodas y grabación de videos. Responsable y resolutiva.",
   education: [
     {
@@ -50,19 +50,19 @@ const data = {
       title: "Landing page",
       description: "Landing page personal para mostrar las fotografías y videos de boda que realizamos. Utilizando HTML5 y CSS3",
       link: "https://github.com/nayelen/Proyecto1.git",
-      image: "../public/Portadakadosh.png",
+      image: "/assets/Portadakadosh.png",
     },
     {
       title: "Landing page",
       description: "Landing page de un negocio pequeño y familiar. Utilizando HTML5, CSS3 y JS",
       link: "https://github.com/nayelen/Proyecto2.git",
-      image: "../public/landingnony.png",
+      image: "/assets/landingnony.png",
     },
     {
       title: "Proyecto Async Web Design",
       description: "Replica de la aplicación web Pinterest utilizando la API unsplash para la obtención de imágenes. Utilizando HTML5, CSS3 y JS",
       link: "https://github.com/nayelen/Proyecto3.git",
-      image: "../public/proyecto3.png",
+      image: "/assets/proyecto3.png",
     }
   ],
 };

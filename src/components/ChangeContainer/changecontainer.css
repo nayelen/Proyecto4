@@ -1,0 +1,18 @@
+.change-container{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+}
+#change{
+  background-color: var(--color-2);
+  color: var(--color-1);
+  border-radius: var(--secondary-br);
+  padding: var(--padding-xs) var(--padding-s);
+  font-size: var( --font-size-sec);
+  border: none;
+  cursor: pointer;
+  margin-top: var(--margin-section);
+}
+.divContent {
+  margin: var(--margin-section) var(--margin-s);
+}

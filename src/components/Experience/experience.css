@@ -1,0 +1,24 @@
+#experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+h2 {
+  margin-top: var(--margin-s);
+}
+#experience ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-xs);
+  width: 50%;
+}
+#experience li {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-xs);
+}

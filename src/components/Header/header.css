@@ -1,0 +1,16 @@
+header {
+  background-color: var(--background);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  padding: var(--padding-m);
+  position: sticky;
+  width: 100%;
+  color: var(--color-1);;
+  top: 0;
+}
+nav {
+  font-size: var(--font-size-sec);
+  text-align: center;
+}

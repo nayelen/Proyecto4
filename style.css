@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+  --background: black;
+  --color-1: #ffffff;
+  --color-2: rgb(144, 145, 215); 
+  --color-3: rgb(28, 26, 26); 
+
+ /* SPACINGS */
+ --margin-xs: 10px;
+ --margin-s: 20px;
+ --margin-m: 30px;
+ --margin-l: 40px;
+ --margin-xl: 50px;
+ --margin-section: 100px;
+
+ --padding-xs: 10px;
+ --padding-s: 20px;
+ --padding-m: 30px;
+ --padding-l: 40px;
+ --padding-xl: 50px;
+
+ --gap-xs: 10px;
+ --gap-s: 20px;
+ --gap-m: 30px;
+ --gap-l: 40px;
+ --gap-xl: 50px;
+
+ /* BORDER RADIUS */
+ --primary-br: 30px;
+ --secondary-br: 20px;
+/* FONTS */
+ --font-size-pri: 14px;
+ --font-size-sec: 18px;
+ font-family: 'Roboto', sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background-color: var(--background);
+  color: var(--color-2);
+  
+}
+a, h1, h2, h3, h4, h5{
+  letter-spacing: 4px;
+  color: var(--color-1);
+ 
+}
+a {
+  text-decoration: none;
+  transition: .4s;
+}
+a:hover{
+  color: var(--color-2);
+}
+main {
+  padding: var(--padding-m);
+  scroll-behavior: smooth
+}
+section {
+  min-height: 100%;
+}

@@ -3,7 +3,7 @@
 :root {
   --background: black;
   --color-1: #ffffff;
-  --color-2: rgb(144, 145, 215); 
+  --color-2: #9091d7; 
   --color-3: rgb(28, 26, 26); 
 
  /* SPACINGS */
@@ -48,7 +48,9 @@ body {
 a, h1, h2, h3, h4, h5{
   letter-spacing: 4px;
   color: var(--color-1);
- 
+}
+h2 {
+  margin: var(--margin-l);
 }
 a {
   text-decoration: none;
@@ -59,7 +61,7 @@ a:hover{
 }
 main {
   padding: var(--padding-m);
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 section {
   min-height: 100%;

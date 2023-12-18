@@ -2,7 +2,7 @@ const data = {
   name: "Nadia Pérez",
   address: "Móstoles, Madrid",
   email: "ayelen.310@hotmail.com",
-  picture: "/assets/meImage.png",
+  picture: "/assets/avatar.JPG",
   aboutMe: "Soy una persona sociable, que sabe trabajar en equipo, con experiencia en atención al cliente, gestión de grupos y habilidad de hablar en público. Fotógrafa de bodas y grabación de videos. Responsable y resolutiva.",
   education: [
     {
@@ -34,16 +34,16 @@ const data = {
       description: "Gestión y organización de viajes, Amadeus - gestión de billetaje, atención al cliente, administración diaria, ",
     },],
   skills: [
-    "HTML",
-    "CSS3",
-    "JavaScript",
-    "Git",
-    "Inglés",
-    "Italiano",
-    "Francés",
-    "Photoshop",
-    "Lightroom",
-    "Final Cut Pro",
+    "👩🏻‍💻 HTML5",
+    "🎨 CSS3",
+    "💻 JavaScript",
+    "🖥 Git",
+    "💬 Inglés",
+    "🗯 Italiano",
+    "💭 Francés",
+    "📷 Photoshop",
+    "📸 Lightroom",
+    "🎥 Final Cut Pro",
   ],
   projetcs: [
     {
@@ -63,6 +63,12 @@ const data = {
       description: "Replica de la aplicación web Pinterest utilizando la API unsplash para la obtención de imágenes. Utilizando HTML5, CSS3 y JS",
       link: "https://github.com/nayelen/Proyecto3.git",
       image: "/assets/proyecto3.png",
+    },
+    {
+      title: "Proyecto Color Flipper",
+      description: "Landing page para seleccionar colores y además averiguar el codigo de un color seleccionado. Utilizando HTML5, CSS3 y JS",
+      link: "https://github.com/nayelen/color-flipper.git",
+      image: "/assets/colorflipper.png",
     }
   ],
 };

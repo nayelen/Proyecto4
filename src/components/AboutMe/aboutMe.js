@@ -8,8 +8,8 @@ export const printAboutMe = (main$$) => {
   secTitle.textContent = 'Sobre Mi';
   const imgMe = document.createElement('img');
   imgMe.src = data.picture;
+  imgMe.alt = data.name;
   imgMe.classList = "myImage";
-  // imgMe.addEventListener("click", r => r.target.classList.toggle("rotate"))
   const pDescription = document.createElement('p');
   pDescription.textContent = data.aboutMe
   const address = document.createElement('p');
@@ -36,5 +36,8 @@ export const printAboutMe = (main$$) => {
   sectAboutMe.appendChild(address)
   sectAboutMe.appendChild(mail);
   main$$.appendChild(sectAboutMe);
-
+}
+export const addAboutListener = () => {
+  const avatar = document.querySelector(".myImage");
+  avatar.addEventListener("click", (e) => { e.target.classList.toggle("rotate") })
 }

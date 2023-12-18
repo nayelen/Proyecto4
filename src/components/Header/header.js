@@ -26,6 +26,7 @@ export const printHeader = (app$$) => {
   const nav = document.createElement('nav');
   const navList = document.createElement('ul');
   h1.textContent = data.name;
+  h1.className = "name";
 
   for (const enlace of arrayEnlaces) {
     const li = document.createElement('li');

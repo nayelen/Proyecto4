@@ -6,11 +6,12 @@
   align-items: center;
 }
 #projects ul {
-   display: grid;
-    padding: var(--padding-s);
+ 
+    display: grid;
+    padding: var(--padding-xs);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: 400px;
-    gap: var(--gap-m);
+    grid-auto-rows: 400px; 
+    gap: var(--gap-xl);
 }
 #projects li {
   display: flex;
@@ -25,12 +26,12 @@
   object-fit: cover;
 } 
 .divText {
-  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: var(--gap-xs);
+  margin: var(--margin-xs);
 }
 #projects a {
   background-color: var(--color-2);

@@ -5,9 +5,6 @@
   justify-content: center;
   gap: var(--gap-xs);
 }
-h2 {
-  margin-top: var(--margin-s);
-}
 #experience ul {
   display: flex;
   flex-direction: column;

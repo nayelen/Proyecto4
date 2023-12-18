@@ -1,4 +1,4 @@
-import { printAboutMe } from './src/components/AboutMe/aboutMe';
+import { addAboutListener, printAboutMe } from './src/components/AboutMe/aboutMe';
 import { printButton, printContent } from './src/components/ChangeContainer/changecontainer';
 import { printProjects } from './src/components/Projects/projects';
 import { printHeader } from './src/components/Header/header';
@@ -9,6 +9,7 @@ printHeader(app$$)
 const main$$ = document.createElement('main');
 app$$.appendChild(main$$);
 printAboutMe(main$$);
+addAboutListener();
 printButton(main$$);
 printContent(main$$)
 printProjects(main$$);

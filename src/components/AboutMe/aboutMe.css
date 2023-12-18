@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-s);
+  padding: var(--padding-xs);
   gap: var(--gap-s);
 }
 .myImage {
@@ -13,9 +13,18 @@
   border-radius: 50%;
   cursor: pointer;
 }
-.myImage:hover{
-  transform: rotate(360deg);
-  transition: 2s ease-in-out;
+.rotate {
+  animation: rotate infinite 5s;
+  filter: blur(1px);
+  box-shadow: 2px 3px 41px 9px #9091d7;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 #aboutMe ul {
@@ -26,10 +35,17 @@
 }
 .skills {
   background-color: var(--color-2);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
   color: var(--color-3);
   border-radius: var(--primary-br);
   padding: 5px var(--padding-xs);
+  cursor: default;
 }
+.skills:hover {
+  transform: rotateX(5deg) scale(1.1) translateZ(90px); 
+  transition: .5s all ease;
+}
+
 .aboutMe p {
   padding: var(--padding-xs);
   text-align: center;

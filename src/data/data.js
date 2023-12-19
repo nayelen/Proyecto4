@@ -60,7 +60,7 @@ const data = {
     },
     {
       title: "Proyecto Async Web Design",
-      description: "Replica de la aplicación web Pinterest utilizando la API unsplash para la obtención de imágenes. Utilizando HTML5, CSS3 y JS",
+      description: "Réplica de la aplicación web Pinterest utilizando la API unsplash para la obtención de imágenes. Utilizando HTML5, CSS3 y JS",
       link: "https://github.com/nayelen/Proyecto3.git",
       image: "/assets/proyecto3.png",
     },

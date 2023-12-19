@@ -10,7 +10,11 @@ export const printProjects = (main$$) => {
   const projects = data.projetcs
   for (const project of projects) {
     const itemProjects = document.createElement('li');
+    itemProjects.className = "liCard";
+    const divImg = document.createElement('div');
+    divImg.className = "front"
     const imgProject = document.createElement('img');
+    imgProject.className = "imgProject"
     const divText = document.createElement('div');
     divText.className = "divText";
     const h3Project = document.createElement('h3');
@@ -23,8 +27,9 @@ export const printProjects = (main$$) => {
     linkProject.textContent = "Más detalles..."
 
     listProjects.appendChild(itemProjects);
-    itemProjects.appendChild(imgProject);
+    itemProjects.appendChild(divImg);
     itemProjects.appendChild(divText);
+    divImg.appendChild(imgProject)
     divText.appendChild(h3Project)
     divText.appendChild(descriptionProject);
     divText.appendChild(linkProject);

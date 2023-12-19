@@ -9,6 +9,7 @@ header {
   width: 100%;
   color: var(--color-1);;
   top: 0;
+  z-index: 2;
 }
 nav {
   font-size: var(--font-size-sec);

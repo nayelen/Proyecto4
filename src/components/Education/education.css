@@ -7,3 +7,10 @@
 h3 {
   margin-top: var(--margin-s);
 }
+#education li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xs);
+}

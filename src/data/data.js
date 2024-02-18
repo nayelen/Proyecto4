@@ -69,6 +69,12 @@ const data = {
       description: "Landing page para seleccionar colores y además averiguar el codigo de un color seleccionado. Utilizando HTML5, CSS3 y JS",
       link: "https://github.com/nayelen/color-flipper.git",
       image: "/assets/colorflipper.png",
+    },
+    {
+      title: "Proyecto Games Hub",
+      description: "Landing page con tres juegos interactivos, como el ahorcado, el tres en raya y un juego de memoria. Utilizando HTML5, CSS3 y JS",
+      link: "https://github.com/nayelen/GamesHub.git",
+      image: "/assets/gameshub.png",
     }
   ],
 };
